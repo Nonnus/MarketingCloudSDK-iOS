@@ -9,9 +9,12 @@ let url = "https://github.com/Nonnus/MarketingCloudSDK-iOS/blob/master/Marketing
 
 let package = Package(
     name: "MarketingCloudSDK",
+    platforms: [.iOS(.v10)],
     products: [.library(name: "MarketingCloudSDK",
                         targets: ["MarketingCloudSDK"])],
     targets: [.binaryTarget(name: "MarketingCloudSDK",
-                            url: url,
-                            checksum: checksum)]
+                            path: "MarketingCloudSDK.zip")]
+//     targets: [.binaryTarget(name: "MarketingCloudSDK",
+//                             url: url,
+//                             checksum: checksum)]
 )
