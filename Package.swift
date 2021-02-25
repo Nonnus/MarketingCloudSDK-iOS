@@ -3,9 +3,7 @@
 
 import PackageDescription
 
-let version = "7.3.1"
-let checksum = "cbd2ee8e37f3050c49efb89a55ced5ea2c172f04f02cbc460b7a4939f93fa606"
-let url = "https://github.com/Nonnus/MarketingCloudSDK-iOS/blob/master/MarketingCloudSDK.zip"
+let version = "7.4.0"
 
 let package = Package(
     name: "MarketingCloudSDK",
@@ -13,8 +11,5 @@ let package = Package(
     products: [.library(name: "MarketingCloudSDK",
                         targets: ["MarketingCloudSDK"])],
     targets: [.binaryTarget(name: "MarketingCloudSDK",
-                            path: "MarketingCloudSDK.zip")]
-//     targets: [.binaryTarget(name: "MarketingCloudSDK",
-//                             url: url,
-//                             checksum: checksum)]
+                            path: "MarketingCloudSDK.xcframework")]
 )
