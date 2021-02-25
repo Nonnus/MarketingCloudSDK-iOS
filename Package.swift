@@ -11,5 +11,5 @@ let package = Package(
     products: [.library(name: "MarketingCloudSDK",
                         targets: ["MarketingCloudSDK"])],
     targets: [.binaryTarget(name: "MarketingCloudSDK",
-                            path: "MarketingCloudSDK.zip")]
+                            path: "MarketingCloudSDK.xcframework")]
 )
