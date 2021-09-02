@@ -3,8 +3,6 @@
 
 import PackageDescription
 
-let version = "7.4.0"
-
 let package = Package(
     name: "MarketingCloudSDK",
     platforms: [.iOS(.v10)],
